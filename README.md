@@ -20,12 +20,17 @@ A simple program that connects to BB8 and flashes the internal RGB LED red to gr
 
 Allow you to drive BB8 with a joystick/gamepad.
 Shows on screen feedback of analog stick as well as speed and heading
-Currently setup for a Xbox 360 controller.
+Currently setup for a DualShock 4.
 
- - Left analog stick controls BB8's movement, much the like app!   
- - Holding the Left trigger stops BB8.
- - Tapping the Left bumper changes BB8's heading - used to calibration.   
- -  Holding the Right bumper turns on BB8's blue 'tail light' to aid in calibration.
+	#Dualshock 4 key codes:
+	#get_button(0) - Square
+	#get_button(1) - X
+	#get_button(2) - O
+	#get_button(3) - Triangle
+	#get_button(4) - L1
+	#get_button(5) - R1
+	#get_button(6) - L2
+	#get_button(7) - R2
 
 > Adapted the sphero driver library from:
 > https://github.com/mmwise/sphero_ros/tree/groovy-devel/sphero_driver/src/sphero_driver
